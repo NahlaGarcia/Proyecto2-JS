@@ -14,3 +14,13 @@ const placesToTravel = [
   { id: 44, name: "Filipinas" },
   { id: 59, name: "Madagascar" },
 ];
+//Creamos un nuevo array donde guardamos los elemento que necesitamos
+const arrayFiltrado = [];
+
+for (let i = 0; i < placesToTravel.length; i++) {
+  if (placesToTravel[i].id !== 11 && placesToTravel[i].id !== 40) {
+    arrayFiltrado.push(placesToTravel[i]);
+  }
+  
+}
+console.log(arrayFiltrado);

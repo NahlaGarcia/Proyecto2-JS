@@ -15,3 +15,13 @@ const toys = [
     {id: 60, name: 'Nerf Blaster'},
     {id: 71, name: 'Sylvanian Families - Familia gato'}
 ];
+
+const juguetesSinGato = []; //Creamos array donde se guardaran los jueguetes que no contengan la palabra gato.
+
+for (let juguetes of toys) {
+    if (!juguetes.name.includes("gato")) {
+        juguetesSinGato.push(juguetes);
+    }
+}
+
+console.log(juguetesSinGato);
