@@ -1,8 +1,7 @@
-## **Ejercicio 27**
+//Ejercicio 27
 
-Utiliza un bucle para encontrar la serie de dibujos animados **más antigua** en el array y guarda su nombre en una variable.
-
-Imprime el nombre por consola.
+/*Utiliza un bucle para encontrar la serie de dibujos animados **más antigua** en el array y guarda su nombre en una variable.
+Imprime el nombre por consola.*/
 
 const cartoons = [
   { name: 'Bugs Bunny', debut: 1938 },
@@ -17,4 +16,13 @@ const cartoons = [
   { name: "Dexter's Laboratory", debut: 1996 }
 ];
 
-// Añade tu código de bucle aquí
+let masAntigua = cartoons [0]; //Empezamos con el primer elemento del array
+
+for (const dibujo of cartoons) {
+  if (cartoons.debut < masAntigua.debut) {
+    masAntigua = cartoons;
+    
+  }
+  
+}
+console.log(masAntigua);
