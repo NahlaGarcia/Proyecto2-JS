@@ -28,6 +28,6 @@ Practicar y afianzar los fundamentos de **JavaScript**, la manipulación del DOM
 
 ## 🧑‍💻 Tecnologías utilizadas
 
-- JavaScript (ES6+)
+- JavaScript
 - HTML  
 - Git / GitHub
