@@ -1,11 +1,6 @@
-# Proyecto 2: Katas JavaScript
-
-Este repositorio contiene el **Proyecto 2 del Máster Full Stack Developer**.  
-El objetivo es completar, validar y organizar las diferentes katas de JavaScript trabajadas durante el módulo.
-
 ## 📂 Contenido del proyecto
 
-El repositorio está dividido en tres bloques principales según los ejercicios realizados:
+El repositorio está dividido en: 
 
 ### ✅ Ejercicios básicos y avanzados de JavaScript
 - Variables, condicionales, bucles
@@ -26,18 +21,8 @@ Cada ejercicio incluye un `index.html` y su archivo `script.js`
 
 ---
 
-### ✅ Ejercicios ES6+ y asincronía
-- Arrow functions
-- Promesas
-- Async/Await
-- Fetch API
-
-📁 `ejercicios-es6-asincronia/`
-
----
-
 ## 🚀 Objetivo
-Practicar y afianzar los fundamentos de **JavaScript**, la manipulación del DOM y las bases de **asincronía moderna**.
+Practicar y afianzar los fundamentos de **JavaScript**, la manipulación del DOM
 
 ---
 
